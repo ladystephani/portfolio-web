@@ -30,3 +30,17 @@ header {
   max-width: 1000px;
   color: white;
 }
+
+/* Project */
+.project {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  padding: 20px;
+  background-color: #80afda;
+}
+
+.project-img {
+  width: 90%;
+}
