@@ -1,5 +1,5 @@
 import "./App.css";
-
+import Projects from "./components/Projects/Projects";
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
           </ul>
         </nav>
       </header>
+      <Projects />
     </div>
   );
 }
