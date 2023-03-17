@@ -1,19 +1,11 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Zhe Qi Li</h1>
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Resume</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <Projects />
     </div>
   );
